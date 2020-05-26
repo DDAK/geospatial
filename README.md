@@ -8,6 +8,7 @@ Some geospatial work
 ## instruction for running Nominatim in docker
  - step 1: install  nominatim-docker
  `git clone git@github.com:mediagis/nominatim-docker.git`
+   and then
   `cd nominatim-docker/<version>`
  - step 2: `docker build -t nominatim .` 
           download and use gcc-states-latest.osm.pbf
