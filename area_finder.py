@@ -41,7 +41,7 @@ def get_intersection_func(rtree_index):
 
 
 def load_geojson_polygons():
-    path = os.path.join(project_path, "data/dubai_geo.json")
+    path = os.path.join(project_path, "data/uae_geo.json")
     with open(path, 'r') as f:
         js = json.load(f)
 
