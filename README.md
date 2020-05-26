@@ -6,7 +6,9 @@ Some geospatial work
 3. using Nominatim for reverse geocoding..
 
 ## instruction for running Nominatim in docker
- - step 1: install: https://github.com/mediagis/nominatim-docker
+ - step 1: install  nominatim-docker
+ `git clone git@github.com:mediagis/nominatim-docker.git`
+  `cd nominatim-docker/<version>`
  - step 2: `docker build -t nominatim .` 
           download and use gcc-states-latest.osm.pbf
  - step 3: `docker run -t -v "${PWD}:/data" nominatim  sh /app/init.sh /data/gcc-states-latest.osm.pbf postgresdata 4`
