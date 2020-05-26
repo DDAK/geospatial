@@ -11,7 +11,7 @@ Some geospatial work
    and then
   `cd nominatim-docker/<version>`
  - step 2: `docker build -t nominatim .` 
-          download and use gcc-states-latest.osm.pbf
+          download and use link [gcc-states-latest.osm.pbf](https://download.geofabrik.de/asia/gcc-states.html)
  - step 3: `docker run -t -v "${PWD}:/data" nominatim  sh /app/init.sh /data/gcc-states-latest.osm.pbf postgresdata 4`
 
  - step 4: `docker run --restart=always -p 6432:5432 -p 7070:8080 -d --name nominatim -v "${PWD}:/data/postgresdata:/var/lib/postgresql/11/main" nominatim bash /app/start.sh`
