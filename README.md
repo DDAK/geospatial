@@ -2,7 +2,7 @@
 Some geospatial work
 
 1. area_finder.py: using rtree for indexing geospatial objects and fast searching
-2. 2gis_scraper.py: parallalize scapraing using selenium with resource pooling for webdriver for efficiency
+2. 2gis_scraper.py: parallalize scraping using selenium with resource pooling for webdriver for efficiency
 3. rev_coder.py: using Nominatim for reverse geocoding..
 
 ## instruction for running Nominatim in docker
